@@ -5,7 +5,7 @@ listaDeNomes = listaDeNomes.append(input('digite seu nome:'))
 
 listaDeEmails = []
 listaDeEmails = list 
-listaDeEmails = listaDeEmails.append(input('digite seu email:'))aaaaaaa
+listaDeEmails = listaDeEmails.append(input('digite seu email:'))
 def main():
 print(listaDeEmails)
 print(listaDeNomes)
