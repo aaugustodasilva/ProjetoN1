@@ -1,10 +1,10 @@
 listaDeNomes = []
 listaDeNomes = list
-listaDeNomes = listaDeNomes.append(input('digite seu nome:\n'))
+listaDeNomes = listaDeNomes.append(input('Digite seu nome:\n'))
 
 listaDeEmails = []
 listaDeEmails = list 
-listaDeEmails = listaDeEmails.append(input('digite seu email:\n'))
+listaDeEmails = listaDeEmails.append(input('Digite seu email:\n'))
 def main():
   print(listaDeEmails)
   print(listaDeNomes)
@@ -18,8 +18,8 @@ print(len(listaDeNomes))
 print(sorted(listaDeEmails))
 print(sorted(listaDeNomes))
 
-nome = input('digite um nome especifico:')
+nome = input('Digite um nome especifico:')
 print(listaDeNomes. index(nome))
 
-email = input('digite um nome especifico:')
+email = input('Digite um nome especifico:')
 print(listaDeEmails. index(email))
